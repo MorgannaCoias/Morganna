@@ -1,0 +1,190 @@
+/* Alterar todos os link */
+a {
+    color: black; /* cor negra */
+    text-decoration: none; /* retirar o sublinhado */
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.title{
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    text-align: center;
+}
+.descricao {
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    text-align: center;
+    width: 65%;
+}
+.descricao2 {
+    padding-top: 60px; 
+    padding-bottom: 60px; 
+    text-align: center;
+    width: 65%;
+}
+    
+.destaque-projeto {
+    background-color: rgb(186, 155, 118);
+    padding: 50px 0; /* Adiciona um espaçamento interno (50px acima e abaixo) */
+}
+
+.texto-imagem {
+    padding-top: 100px; 
+    padding-bottom: 100px;
+}
+
+.destaque-projeto img {
+    width: 100%; /* Ajusta a largura da imagem para preencher a coluna */
+}
+
+.destaque-projeto p {
+    font-size: 17px;
+    line-height: 400%;
+}
+
+.navbar {
+    background-color: rgb(186, 155, 118);
+    width: 64%;
+    display: flex; /* Para usar flexbox */
+    justify-content: space-between; /* Distribui igualmente os itens com espaços entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+}
+
+.navbar li {
+    flex-grow: 1; /* Todos os itens crescerão igualmente para ocupar o espaço disponível */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+body {
+    background-color: rgb(251, 220, 182);
+  }
+  
+.footer{
+   background-color: rgb(151, 125, 93);
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: center;
+   
+}
+
+.logo_footer {
+    height: 70px; 
+    width: 70px; 
+}
+
+.footer p {
+   text-align: center; 
+}
+
+.footer img {
+    max-width: 100%; 
+}
+.dfooter{
+    padding-top: 100px;
+}
+
+
+.projetos .col-md-4 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.projetos2 .col-md-4 {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    text-align: center; 
+}
+
+.projetos h2,
+.projetos2 h2,
+.projetos p,
+.projetos2 p {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.carrossel-com-fundo {
+    background-color: rgb(186, 155, 118);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricaoblog{
+    text-align: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aboutme {
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    line-height: 50px;
+    text-align: center;
+}
+.espacoblogs{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+
+}
+.blog1{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+
+}
+.blog2{
+    padding-top: 15px;
+    padding-bottom: 15px; 
+
+}
+.post1,
+.post2,
+.post3,
+.post4,
+.post5,
+.post6 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+
+.post1 p,
+.post2 p,
+.post3 p,
+.post4 p,
+.post5 p,
+.post6 p {
+    padding-top: 15px; 
+}
+
+
+.post1 h2,
+.post2 h2,
+.post3 h2,
+.post4 h2,
+.post5 h2,
+.post6 h2 {
+    padding-top: 15px;
+}
+
+.destaquefotografia h2{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    line-height: 35px;
+}
+.destaquefotografia p{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: 35px;
+}
